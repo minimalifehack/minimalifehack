@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta
+      name="description"
+      content="シンプルで、すぐ使える。暮らしの小さな課題を解決するWebアプリを届けるMINIMAL LIFEHACKの公式サイト。"
+    />
+    <title>MINIMAL LIFEHACK — 毎日を、少しだけ軽く。</title>
+    <link rel="icon" href="./assets/minimal-lifehack-logo.jpeg" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">本文へ移動</a>
+
+    <header class="site-header" aria-label="サイトヘッダー">
+      <a class="brand" href="#top" aria-label="MINIMAL LIFEHACK トップへ">
+        <span class="brand-crop" aria-hidden="true">
+          <img src="./assets/minimal-lifehack-logo.jpeg" alt="" />
+        </span>
+      </a>
+      <nav class="site-nav" aria-label="メインナビゲーション">
+        <a href="#apps">APPS</a>
+        <a href="#about">ABOUT</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <h1 id="hero-title">毎日を、<br />少しだけ軽く。</h1>
+          <p>
+            シンプルで、すぐ使える。<br />
+            暮らしの小さな課題を解決するWebアプリをつくっています。
+          </p>
+          <a class="primary-action" href="#apps">
+            <span>アプリを見る</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M5 12h13M13 6l6 6-6 6" />
+            </svg>
+          </a>
+        </div>
+
+        <div class="product-window" aria-hidden="true">
+          <div class="window-topbar"><i></i><i></i><i></i></div>
+          <div class="window-body">
+            <div class="window-rail">
+              <span class="rail-mark"></span>
+              <span></span><span></span><span></span><span></span>
+            </div>
+            <div class="window-stage">
+              <div class="stage-heading"></div>
+              <div class="stage-line wide"></div>
+              <div class="stage-line medium"></div>
+              <div class="code-panel">
+                <svg viewBox="0 0 28 24" aria-hidden="true">
+                  <path d="m10 5-7 7 7 7M18 5l7 7-7 7M16 3l-4 18" />
+                </svg>
+                <div class="code-lines">
+                  <span></span><span></span><span></span><span></span><span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a class="scroll-cue" href="#apps" aria-label="アプリ一覧へスクロール">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v15M6 13l6 6 6-6" /></svg>
+        </a>
+      </section>
+
+      <section class="apps-section" id="apps" aria-labelledby="apps-title">
+        <div class="section-title-row">
+          <h2 id="apps-title">APPS</h2>
+          <p>生活の小さな不便を、ひとつずつ。</p>
+        </div>
+
+        <div class="app-list">
+          <article class="app-row">
+            <p class="app-number">APP 01</p>
+            <div class="app-details">
+              <h3>最初のアプリを準備中</h3>
+              <p>公開後、この場所からすぐに使えます。</p>
+            </div>
+            <p class="app-status">COMING SOON</p>
+            <button class="app-action" type="button" disabled>公開準備中</button>
+          </article>
+
+          <article class="app-row app-row--empty" aria-label="APP 02 公開予定">
+            <p class="app-number">APP 02</p>
+            <span class="empty-line" aria-hidden="true"></span>
+          </article>
+
+          <article class="app-row app-row--empty" aria-label="APP 03 公開予定">
+            <p class="app-number">APP 03</p>
+            <span class="empty-line" aria-hidden="true"></span>
+          </article>
+        </div>
+      </section>
+
+      <section class="about-section" id="about" aria-labelledby="about-title">
+        <div class="about-copy">
+          <h2 id="about-title">必要な機能だけ。<br />迷わず使える。</h2>
+          <p>MINIMAL LIFEHACKは、生活にすっとなじむWebアプリを届けます。</p>
+          <a class="dark-action" href="#apps">
+            <span class="accent-square" aria-hidden="true"></span>
+            <span>公開中のアプリを見る</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M5 12h13M13 6l6 6-6 6" />
+            </svg>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="footer-brand" href="#top" aria-label="MINIMAL LIFEHACK トップへ">
+        MINIMAL<br />LIFEHACK
+      </a>
+      <nav aria-label="フッターナビゲーション">
+        <a href="#apps">APPS</a>
+        <a href="#about">ABOUT</a>
+      </nav>
+      <p>© 2026 MINIMAL LIFEHACK</p>
+    </footer>
+  </body>
+</html>
