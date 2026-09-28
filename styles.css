@@ -469,14 +469,17 @@ a { color: inherit; }
 }
 
 .footer-brand {
-  width: max-content;
-  color: var(--paper);
-  font-family: var(--display);
-  font-size: clamp(1.5rem, 2.5vw, 2.5rem);
-  font-weight: 900;
-  line-height: 0.9;
-  letter-spacing: -0.055em;
-  text-decoration: none;
+  display: block;
+  width: clamp(12rem, 20vw, 17rem);
+  max-width: 100%;
+}
+
+.footer-brand img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 2.6;
+  object-fit: cover;
 }
 
 .site-footer nav { display: flex; gap: 2.2rem; }
