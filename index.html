@@ -6,9 +6,9 @@
     <meta name="theme-color" content="#ffffff" />
     <meta
       name="description"
-      content="シンプルで、すぐ使える。暮らしの小さな課題を解決するWebアプリを届けるMINIMAL LIFEHACKの公式サイト。"
+      content="暮らし、思考、生活コスト、便利ツール、モノ。5つのテーマから、自分に必要なものを選ぶミニマリズムのヒントを届けます。"
     />
-    <title>MINIMAL LIFEHACK — 毎日を、少しだけ軽く。</title>
+    <title>minimalifehack — 少なく、軽く。自分らしく。</title>
     <link rel="icon" href="./assets/minimal-lifehack-logo.jpeg" />
     <link rel="stylesheet" href="./styles.css" />
     <script src="./app.js" defer></script>
@@ -17,12 +17,13 @@
     <a class="skip-link" href="#main">本文へ移動</a>
 
     <header class="site-header" aria-label="サイトヘッダー">
-      <a class="brand" href="#top" aria-label="MINIMAL LIFEHACK トップへ">
+      <a class="brand" href="#top" aria-label="minimalifehack トップへ">
         <span class="brand-crop" aria-hidden="true">
           <img src="./assets/minimal-lifehack-logo.jpeg" alt="" />
         </span>
       </a>
       <nav class="site-nav" aria-label="メインナビゲーション">
+        <a href="#blog">BLOG</a>
         <a href="#apps">APPS</a>
         <a href="#about">ABOUT</a>
       </nav>
@@ -31,51 +32,116 @@
     <main id="main">
       <section class="hero" id="top" aria-labelledby="hero-title">
         <div class="hero-copy">
-          <h1 id="hero-title">毎日を、<br />少しだけ軽く。</h1>
+          <h1 id="hero-title">少なく、軽く。<br />自分らしく。</h1>
           <p>
-            シンプルで、すぐ使える。<br />
-            暮らしの小さな課題を解決するWebアプリをつくっています。
+            <span>モノも、思考も、日々のコストも。</span>
+            <span>自分に必要なものを選び、心地よく暮らす。</span>
+            <span>ミニマリズムのヒントを、5つのテーマから。</span>
           </p>
-          <a class="primary-action" href="#apps">
-            <span>アプリを見る</span>
+          <a class="primary-action" href="#blog">
+            <span>5つのテーマを読む</span>
             <svg viewBox="0 0 24 24" aria-hidden="true">
               <path d="M5 12h13M13 6l6 6-6 6" />
             </svg>
           </a>
         </div>
+        <figure class="hero-photo">
+          <img src="./assets/minimalism-quiet-living.jpg"
+            alt="自然光が差し込む静かな空間に、木の椅子と本、白いカップを置いた小さなテーブル"
+            width="1122" height="1402" fetchpriority="high" />
+        </figure>
+      </section>
 
-        <div class="product-window" aria-hidden="true">
-          <div class="window-topbar"><i></i><i></i><i></i></div>
-          <div class="window-body">
-            <div class="window-rail">
-              <span class="rail-mark"></span>
-              <span></span><span></span><span></span><span></span>
+      <section class="blog-section" id="blog" aria-labelledby="blog-title">
+        <div class="section-title-row">
+          <h2 id="blog-title">BLOG</h2>
+          <p>読むことから、毎日を少しだけ軽く。</p>
+        </div>
+        <nav class="blog-category-nav" aria-label="ブログカテゴリー">
+          <a href="#blog-living"><span aria-hidden="true">01</span>暮らしを整える</a>
+          <a href="#blog-mindset"><span aria-hidden="true">02</span>ミニマル思考</a>
+          <a href="#blog-life-cost"><span aria-hidden="true">03</span>ミニマムライフコスト</a>
+          <a href="#blog-tools"><span aria-hidden="true">04</span>AI・便利ツール</a>
+          <a href="#blog-goods"><span aria-hidden="true">05</span>ミニマルなモノ</a>
+        </nav>
+        <div class="blog-categories">
+          <section class="blog-category" id="blog-living" aria-labelledby="blog-living-title">
+            <p class="blog-category-number" aria-hidden="true">01</p>
+            <div class="blog-category-copy">
+              <h3 id="blog-living-title">暮らしを整える</h3>
+              <p>片づけ、家事、小さな習慣。日々の暮らしを無理なく整える。</p>
             </div>
-            <div class="window-stage">
-              <div class="stage-heading"></div>
-              <div class="stage-line wide"></div>
-              <div class="stage-line medium"></div>
-              <div class="code-panel">
-                <svg viewBox="0 0 28 24" aria-hidden="true">
-                  <path d="m10 5-7 7 7 7M18 5l7 7-7 7M16 3l-4 18" />
-                </svg>
-                <div class="code-lines">
-                  <span></span><span></span><span></span><span></span><span></span>
-                </div>
+            <div class="blog-articles" aria-label="暮らしを整えるの記事">
+              <div class="blog-empty">
+                <span class="blog-empty-label" lang="en">COMING SOON</span>
+                <p>記事を準備中</p>
+                <span class="blog-empty-note">公開した記事をここにお届けします。</span>
               </div>
             </div>
-          </div>
+          </section>
+          <section class="blog-category" id="blog-mindset" aria-labelledby="blog-mindset-title">
+            <p class="blog-category-number" aria-hidden="true">02</p>
+            <div class="blog-category-copy">
+              <h3 id="blog-mindset-title">ミニマル思考</h3>
+              <p>書籍や日々の気づきから、ミニマルな考え方を深める。</p>
+            </div>
+            <div class="blog-articles" aria-label="ミニマル思考の記事">
+              <div class="blog-empty">
+                <span class="blog-empty-label" lang="en">COMING SOON</span>
+                <p>記事を準備中</p>
+                <span class="blog-empty-note">公開した記事をここにお届けします。</span>
+              </div>
+            </div>
+          </section>
+          <section class="blog-category" id="blog-life-cost" aria-labelledby="blog-life-cost-title">
+            <p class="blog-category-number" aria-hidden="true">03</p>
+            <div class="blog-category-copy">
+              <h3 id="blog-life-cost-title">ミニマムライフコスト</h3>
+              <p>固定費、日々の出費。自分に必要な暮らしのコストを考える。</p>
+            </div>
+            <div class="blog-articles" aria-label="ミニマムライフコストの記事">
+              <div class="blog-empty">
+                <span class="blog-empty-label" lang="en">COMING SOON</span>
+                <p>記事を準備中</p>
+                <span class="blog-empty-note">公開した記事をここにお届けします。</span>
+              </div>
+            </div>
+          </section>
+          <section class="blog-category" id="blog-tools" aria-labelledby="blog-tools-title">
+            <p class="blog-category-number" aria-hidden="true">04</p>
+            <div class="blog-category-copy">
+              <h3 id="blog-tools-title">AI・便利ツール</h3>
+              <p>AI・Webアプリの活用から、スマホやファイルのデジタル整理まで。</p>
+            </div>
+            <div class="blog-articles" aria-label="AI・便利ツールの記事">
+              <div class="blog-empty">
+                <span class="blog-empty-label" lang="en">COMING SOON</span>
+                <p>記事を準備中</p>
+                <span class="blog-empty-note">公開した記事をここにお届けします。</span>
+              </div>
+            </div>
+          </section>
+          <section class="blog-category" id="blog-goods" aria-labelledby="blog-goods-title">
+            <p class="blog-category-number" aria-hidden="true">05</p>
+            <div class="blog-category-copy">
+              <h3 id="blog-goods-title">ミニマルなモノ</h3>
+              <p>少ないもので心地よく。シンプルで使いやすい道具や日用品を紹介。</p>
+            </div>
+            <div class="blog-articles" aria-label="ミニマルなモノの記事">
+              <div class="blog-empty">
+                <span class="blog-empty-label" lang="en">COMING SOON</span>
+                <p>記事を準備中</p>
+                <span class="blog-empty-note">公開した記事をここにお届けします。</span>
+              </div>
+            </div>
+          </section>
         </div>
-
-        <a class="scroll-cue" href="#apps" aria-label="アプリ一覧へスクロール">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v15M6 13l6 6 6-6" /></svg>
-        </a>
       </section>
 
       <section class="apps-section" id="apps" aria-labelledby="apps-title">
         <div class="section-title-row">
           <h2 id="apps-title">APPS</h2>
-          <p>生活の小さな不便を、ひとつずつ。</p>
+          <p>暮らしを助ける、小さな道具。</p>
         </div>
 
         <div class="app-list">
@@ -86,28 +152,19 @@
               <p>公開後、この場所からすぐに使えます。</p>
             </div>
             <p class="app-status">COMING SOON</p>
-            <button class="app-action" type="button" disabled>公開準備中</button>
           </article>
 
-          <article class="app-row app-row--empty" aria-label="APP 02 公開予定">
-            <p class="app-number">APP 02</p>
-            <span class="empty-line" aria-hidden="true"></span>
-          </article>
-
-          <article class="app-row app-row--empty" aria-label="APP 03 公開予定">
-            <p class="app-number">APP 03</p>
-            <span class="empty-line" aria-hidden="true"></span>
-          </article>
         </div>
       </section>
 
       <section class="about-section" id="about" aria-labelledby="about-title">
         <div class="about-copy">
-          <h2 id="about-title">必要な機能だけ。<br />迷わず使える。</h2>
-          <p>MINIMAL LIFEHACKは、生活にすっとなじむWebアプリを届けます。</p>
-          <a class="dark-action" href="#apps">
+          <h2 id="about-title">減らすことで、<br />大切なものが見えてくる。</h2>
+          <p>ミニマリズムは、ただモノを減らすことではなく、<br />自分にとって大切なものを選ぶこと。</p>
+          <p>minimalifehackは、思考・暮らし・お金・道具を見つめ直すヒントを届けます。</p>
+          <a class="dark-action" href="#blog">
             <span class="accent-square" aria-hidden="true"></span>
-            <span>公開中のアプリを見る</span>
+            <span>5つのテーマを読む</span>
             <svg viewBox="0 0 24 24" aria-hidden="true">
               <path d="M5 12h13M13 6l6 6-6 6" />
             </svg>
@@ -117,14 +174,15 @@
     </main>
 
     <footer class="site-footer">
-      <a class="footer-brand" href="#top" aria-label="MINIMAL LIFEHACK トップへ">
-        <img src="./assets/minimal-lifehack-footer-logo.jpg" alt="MINIMAL LIFEHACK" width="1024" height="1024" />
+      <a class="footer-brand" href="#top" aria-label="minimalifehack トップへ">
+        <img src="./assets/minimal-lifehack-footer-logo.jpg" alt="minimalifehack" width="1024" height="1024" />
       </a>
       <nav aria-label="フッターナビゲーション">
+        <a href="#blog">BLOG</a>
         <a href="#apps">APPS</a>
         <a href="#about">ABOUT</a>
       </nav>
-      <p>© 2026 MINIMAL LIFEHACK</p>
+      <p>© 2026 minimalifehack</p>
     </footer>
   </body>
 </html>
