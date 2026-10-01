@@ -21,7 +21,8 @@
     <meta property="og:image:alt" content="自然光が差し込む、椅子と小さなテーブルのある空間" />
     <meta property="og:locale" content="ja_JP" />
     <meta name="twitter:card" content="summary_large_image" />
-    <link rel="stylesheet" href="./styles.css?v=20261001-focus" />
+    <link rel="stylesheet" href="./styles.css?v=20261001-analytics" />
+    <script src="./analytics.js?v=20261001-analytics" defer></script>
     <script src="./app.js?v=20261001-focus" defer></script>
   </head>
   <body>
@@ -55,24 +56,12 @@
               <path d="M5 12h13M13 6l6 6-6 6" />
             </svg>
           </a>
-          <a class="hero-secondary" href="#follow">更新情報・SNSを見る <span aria-hidden="true">↗</span></a>
         </div>
         <figure class="hero-photo">
           <img src="./assets/minimalism-quiet-living.jpg"
             alt="自然光が差し込む静かな空間に、木の椅子と本、白いカップを置いた小さなテーブル"
             width="1122" height="1402" fetchpriority="high" />
         </figure>
-      </section>
-
-      <section class="start-section" aria-labelledby="start-title">
-        <p class="eyebrow">START HERE</p>
-        <h2 id="start-title">全部を変えずに、<br class="mobile-break" />ひとつから。</h2>
-        <p class="section-intro">読書、趣味、大切な人と過ごす時間。もっと向き合いたいことを思い浮かべてみてください。その時間をつくるために、今の暮らしで整えたいテーマから始めましょう。</p>
-        <div class="start-links">
-          <a href="#blog-living"><span>好きなことを楽しむ時間がほしい</span><strong>暮らしを整える <span aria-hidden="true">↗</span></strong></a>
-          <a href="#blog-mindset"><span>選ぶときの迷いを減らしたい</span><strong>ミニマル思考 <span aria-hidden="true">↗</span></strong></a>
-          <a href="#blog-life-cost"><span>自分に必要な出費を知りたい</span><strong>ミニマムライフコスト <span aria-hidden="true">↗</span></strong></a>
-        </div>
       </section>
 
       <section class="blog-section" id="blog" aria-labelledby="blog-title">
@@ -240,7 +229,6 @@
             </li>
           </ul>
           <div class="share-site">
-            <p>このサイトを、あとで読みたい人へ。</p>
             <button class="copy-link" type="button" data-copy-url="https://minimalifehack.github.io/minimalifehack/" hidden>サイトのURLをコピー <span aria-hidden="true">↗</span></button>
             <a class="share-url" href="https://minimalifehack.github.io/minimalifehack/">minimalifehack.github.io/minimalifehack/</a>
             <p class="copy-status" role="status" aria-live="polite"></p>
@@ -259,7 +247,11 @@
         <a href="#about">ABOUT</a>
         <a href="#follow">FOLLOW</a>
       </nav>
-      <p>© 2026 minimalifehack</p>
+      <div class="footer-meta">
+        <a href="./privacy.html" rel="privacy-policy">プライバシー</a>
+        <button type="button" data-analytics-settings hidden>アクセス解析の設定</button>
+        <p>© 2026 minimalifehack</p>
+      </div>
     </footer>
   </body>
 </html>
