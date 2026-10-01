@@ -3,12 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#ffffff" />
+    <meta name="theme-color" content="#f7f7f8" />
     <meta name="description" content="minimalifehackのアクセス解析と閲覧情報の取り扱いについて。" />
     <title>プライバシーポリシー｜minimalifehack</title>
     <link rel="canonical" href="https://minimalifehack.github.io/minimalifehack/privacy.html" />
     <link rel="icon" href="./assets/minimal-lifehack-logo.jpeg" />
-    <link rel="stylesheet" href="./styles.css?v=20261001-footer" />
+    <link rel="stylesheet" href="./styles.css?v=20261002-editorial" />
+    <script src="./app.js?v=20261002-editorial" defer></script>
     <script src="./analytics.js?v=20261001-analytics" defer></script>
   </head>
   <body>
@@ -17,10 +18,12 @@
       <a class="brand" href="./index.html#top" aria-label="minimalifehack トップへ">
         <span class="brand-crop" aria-hidden="true"><img src="./assets/minimal-lifehack-logo.jpeg" alt="" /></span>
       </a>
-      <nav class="site-nav" aria-label="メインナビゲーション">
-        <a href="./index.html#blog">BLOG</a>
-        <a href="./about.html">ABOUT</a>
-        <a href="./index.html#follow">FOLLOW</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu" aria-label="メニューを開く" hidden><span></span><span></span></button>
+      <nav class="site-menu" id="site-menu" aria-label="メインナビゲーション">
+        <a href="./index.html#blog"><span>01</span>BLOG <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg></a>
+        <a href="./about.html"><span>02</span>ABOUT <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg></a>
+        <a href="./index.html#follow"><span>03</span>FOLLOW <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg></a>
+        <a href="./contact.html"><span>04</span>CONTACT <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg></a>
       </nav>
     </header>
     <main id="main" class="privacy-main" tabindex="-1">

@@ -9,7 +9,7 @@ HTML・CSS・JavaScriptで構成されており、パッケージのインスト
 - `index.html` — トップページ、カテゴリー別の記事一覧、更新情報
 - `articles/*.html` — 各カテゴリーの入門記事5本
 - `styles.css` — デザインとスマートフォン向けの表示設定
-- `app.js` — 記事・RSSのURLコピー（ページ内移動はブラウザー標準）
+- `app.js` — メニューの開閉と記事・RSSのURLコピー（ページ内移動はブラウザー標準）
 - `analytics.js` — Google アナリティクスの設定と閲覧者の選択
 - `about.html` — 運営概要とサイトの方針
 - `contact.html` — お問い合わせ窓口（Googleフォーム公開待ち）
@@ -17,9 +17,10 @@ HTML・CSS・JavaScriptで構成されており、パッケージのインスト
 - `feed.xml` — 記事更新を購読するためのRSS
 - `sitemap.xml` — 検索エンジン向けのページ一覧
 - `EDITORIAL.md` — カテゴリー別の執筆ルール案と公開前チェック
-- `assets/minimal-lifehack-logo.jpeg` — ヘッダー・フッター共通ロゴ
+- `assets/minimal-lifehack-logo.jpeg` — ヘッダーロゴ
 - `assets/minimal-lifehack-footer-logo.jpg` — 旧フッターロゴ（現在未使用）
 - `assets/minimalism-quiet-living.jpg` — トップのイメージ写真（AI生成）
+- `assets/editorial-*.jpg` — 記事カテゴリー用のイメージ写真4点（AI生成）
 
 ## 手元で確認する
 

@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#ffffff" />
+    <meta name="theme-color" content="#f7f7f8" />
     <meta
       name="description"
       content="ミニマリズムで、好きなことと向き合う時間を増やす。暮らし・思考・お金・道具を選び、大切なことに集中するためのヒントを届けます。"
@@ -21,23 +21,23 @@
     <meta property="og:image:alt" content="自然光が差し込む、椅子と小さなテーブルのある空間" />
     <meta property="og:locale" content="ja_JP" />
     <meta name="twitter:card" content="summary_large_image" />
-    <link rel="stylesheet" href="./styles.css?v=20261001-footer" />
+    <link rel="stylesheet" href="./styles.css?v=20261002-editorial" />
     <script src="./analytics.js?v=20261001-analytics" defer></script>
-    <script src="./app.js?v=20261001-footer" defer></script>
+    <script src="./app.js?v=20261002-editorial" defer></script>
   </head>
-  <body>
+  <body class="home-page">
     <a class="skip-link" href="#main">本文へ移動</a>
 
     <header class="site-header" aria-label="サイトヘッダー">
-      <a class="brand" href="#top" aria-label="minimalifehack トップへ">
-        <span class="brand-crop" aria-hidden="true">
-          <img src="./assets/minimal-lifehack-logo.jpeg" alt="" />
-        </span>
+      <a class="brand" href="./index.html#top" aria-label="minimalifehack トップへ">
+        <span class="brand-crop" aria-hidden="true"><img src="./assets/minimal-lifehack-logo.jpeg" alt="" /></span>
       </a>
-      <nav class="site-nav" aria-label="メインナビゲーション">
-        <a href="#blog">BLOG</a>
-        <a href="./about.html">ABOUT</a>
-        <a href="#follow">FOLLOW</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu" aria-label="メニューを開く" hidden><span></span><span></span></button>
+      <nav class="site-menu" id="site-menu" aria-label="メインナビゲーション">
+        <a href="./index.html#blog"><span>01</span>BLOG <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg></a>
+        <a href="./about.html"><span>02</span>ABOUT <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg></a>
+        <a href="./index.html#follow"><span>03</span>FOLLOW <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg></a>
+        <a href="./contact.html"><span>04</span>CONTACT <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg></a>
       </nav>
     </header>
 
@@ -78,77 +78,82 @@
         </nav>
         <div class="blog-categories">
           <section class="blog-category" id="blog-living" aria-labelledby="blog-living-title">
-            <p class="blog-category-number" aria-hidden="true">01</p>
             <div class="blog-category-copy">
+              <p class="blog-category-number" aria-hidden="true">01</p>
               <h3 id="blog-living-title">暮らしを整える</h3>
               <p>片づけ、家事、小さな習慣。日々の暮らしを無理なく整える。</p>
             </div>
             <div class="blog-articles" aria-label="暮らしを整えるの記事">
               <article class="article-card">
-                <p class="eyebrow">はじめの一歩</p>
+                <div class="article-image"><img src="./assets/minimalism-quiet-living.jpg" alt="自然光が差し込む、椅子と小さなテーブルのある空間" loading="lazy" width="1536" height="1024" /></div>
+
                 <h4><a href="./articles/one-small-space.html">片づけは、ひとつの小さな場所から。</a></h4>
                 <p>部屋全体を変えようとせず、机の一角から。片づけと小さな習慣をつなぐ、最初の一歩。</p>
-                <span class="article-card-hint" aria-hidden="true">記事を読む →</span>
+                <span class="article-card-hint" aria-hidden="true">記事を読む <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg></span>
               </article>
             </div>
           </section>
           <section class="blog-category" id="blog-mindset" aria-labelledby="blog-mindset-title">
-            <p class="blog-category-number" aria-hidden="true">02</p>
             <div class="blog-category-copy">
+              <p class="blog-category-number" aria-hidden="true">02</p>
               <h3 id="blog-mindset-title">ミニマル思考</h3>
               <p>書籍や日々の気づきから、ミニマルな考え方を深める。</p>
             </div>
             <div class="blog-articles" aria-label="ミニマル思考の記事">
               <article class="article-card">
-                <p class="eyebrow">はじめの一歩</p>
+                <div class="article-image"><img src="./assets/editorial-mindset.jpg" alt="机の上に置かれた本" loading="lazy" width="1536" height="1024" /></div>
+
                 <h4><a href="./articles/reading-your-own-standard.html">読書の気づきを、自分の「選ぶ基準」にする。</a></h4>
                 <p>本に書かれた正解をそのまま借りず、自分の暮らしに置き換える。気づきを残す3つの問い。</p>
-                <span class="article-card-hint" aria-hidden="true">記事を読む →</span>
+                <span class="article-card-hint" aria-hidden="true">記事を読む <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg></span>
               </article>
             </div>
           </section>
           <section class="blog-category" id="blog-life-cost" aria-labelledby="blog-life-cost-title">
-            <p class="blog-category-number" aria-hidden="true">03</p>
             <div class="blog-category-copy">
+              <p class="blog-category-number" aria-hidden="true">03</p>
               <h3 id="blog-life-cost-title">ミニマムライフコスト</h3>
               <p>固定費、日々の出費。自分に必要な暮らしのコストを考える。</p>
             </div>
             <div class="blog-articles" aria-label="ミニマムライフコストの記事">
               <article class="article-card">
-                <p class="eyebrow">はじめの一歩</p>
+                <div class="article-image"><img src="./assets/editorial-cost.jpg" alt="支出を整理するノートと電卓" loading="lazy" width="1536" height="1024" /></div>
+
                 <h4><a href="./articles/know-your-living-cost.html">生活費を減らす前に、必要な支出を知る。</a></h4>
                 <p>安さだけを目標にせず、守りたい支出を見つける。ひと月の出費を見渡すための整理方法。</p>
-                <span class="article-card-hint" aria-hidden="true">記事を読む →</span>
+                <span class="article-card-hint" aria-hidden="true">記事を読む <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg></span>
               </article>
             </div>
           </section>
           <section class="blog-category" id="blog-tools" aria-labelledby="blog-tools-title">
-            <p class="blog-category-number" aria-hidden="true">04</p>
             <div class="blog-category-copy">
+              <p class="blog-category-number" aria-hidden="true">04</p>
               <h3 id="blog-tools-title">AI・便利ツール</h3>
               <p>AI・Webアプリの活用から、スマホやファイルのデジタル整理まで。</p>
             </div>
             <div class="blog-articles" aria-label="AI・便利ツールの記事">
               <article class="article-card">
-                <p class="eyebrow">はじめの一歩</p>
+                <div class="article-image"><img src="./assets/editorial-digital.jpg" alt="必要な道具を揃えたシンプルな作業机" loading="lazy" width="1536" height="1024" /></div>
+
                 <h4><a href="./articles/digital-one-place.html">デジタル整理は、「置き場所」をひとつ決める。</a></h4>
                 <p>新しいアプリを増やす前に、メモやファイルの入口を整える。AIに任せる範囲も小さく決める。</p>
-                <span class="article-card-hint" aria-hidden="true">記事を読む →</span>
+                <span class="article-card-hint" aria-hidden="true">記事を読む <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg></span>
               </article>
             </div>
           </section>
           <section class="blog-category" id="blog-goods" aria-labelledby="blog-goods-title">
-            <p class="blog-category-number" aria-hidden="true">05</p>
             <div class="blog-category-copy">
+              <p class="blog-category-number" aria-hidden="true">05</p>
               <h3 id="blog-goods-title">ミニマルなモノ</h3>
               <p>好きなことを支えてくれる、自分に合う道具や日用品を紹介。</p>
             </div>
             <div class="blog-articles" aria-label="ミニマルなモノの記事">
               <article class="article-card">
-                <p class="eyebrow">はじめの一歩</p>
+                <div class="article-image"><img src="./assets/editorial-goods.jpg" alt="日々の時間を楽しむカップとケトル" loading="lazy" width="1536" height="1024" /></div>
+
                 <h4><a href="./articles/before-adding-one-thing.html">ひとつ増やす前に、使う場面を思い浮かべる。</a></h4>
                 <p>シンプルな見た目だけで選ばない。道具を迎える前に考えたい、使い方・置き場所・手入れ。</p>
-                <span class="article-card-hint" aria-hidden="true">記事を読む →</span>
+                <span class="article-card-hint" aria-hidden="true">記事を読む <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg></span>
               </article>
             </div>
           </section>
