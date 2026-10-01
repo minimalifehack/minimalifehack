@@ -7,7 +7,7 @@ document.querySelectorAll("[data-copy-url]").forEach((button) => {
       await navigator.clipboard.writeText(button.dataset.copyUrl);
       status.textContent = "URLをコピーしました。保存やシェアにご利用ください。";
     } catch {
-      status.textContent = "コピーできませんでした。表示されているリンクを長押し、または右クリックしてコピーしてください。";
+      status.textContent = `コピーできませんでした。次のURLを選択してコピーしてください：${button.dataset.copyUrl}`;
     }
   });
 });
