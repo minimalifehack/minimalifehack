@@ -50,7 +50,7 @@ if (/^G-[A-Z0-9]+$/.test(GA_MEASUREMENT_ID)) {
     panel.className = "analytics-choice";
     panel.setAttribute("aria-label", "アクセス解析の設定");
     panel.innerHTML = `
-      <p>このサイトは、許可をいただいた場合だけGoogle アナリティクスで閲覧状況を計測します。利用しなくても記事を読めます。<a href="${privacyLink.href}">詳しく見る</a></p>
+      <p>このサイトは、許可をいただいた場合だけGoogle アナリティクスで閲覧状況を計測します。利用しなくてもサイトを閲覧できます。<a href="${privacyLink.href}">詳しく見る</a></p>
       <div class="analytics-choice-actions">
         <button type="button" data-analytics-choice="granted">計測を許可する</button>
         <button type="button" data-analytics-choice="denied">利用しない</button>

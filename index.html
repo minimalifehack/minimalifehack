@@ -6,24 +6,23 @@
     <meta name="theme-color" content="#f7f7f8" />
     <meta
       name="description"
-      content="ミニマリズムで、好きなことと向き合う時間を増やす。暮らし・思考・お金・道具を選び、大切なことに集中するためのヒントを届けます。"
+      content="minimalifehackの最初のWebアプリを準備中。毎日の小さな手間を減らし、好きなことに使える時間を増やすことを目指しています。"
     />
-    <title>minimalifehack — 好きなことと、向き合う時間を。</title>
+    <title>minimalifehack — 最初のWebアプリを準備中</title>
     <link rel="icon" href="./assets/minimal-lifehack-logo.jpeg" />
-    <link rel="alternate" type="application/rss+xml" title="minimalifehackの記事" href="./feed.xml" />
     <link rel="canonical" href="https://minimalifehack.github.io/minimalifehack/" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="minimalifehack" />
-    <meta property="og:title" content="好きなことと、向き合う時間を。｜minimalifehack" />
-    <meta property="og:description" content="大切なことを選び、そこに時間を注ぐ。選択と集中を軸にしたミニマリズムのヒント。" />
+    <meta property="og:title" content="毎日の手間を、好きな時間に変える。｜minimalifehack" />
+    <meta property="og:description" content="日常の小さな手間を減らすWebアプリを準備しています。" />
     <meta property="og:url" content="https://minimalifehack.github.io/minimalifehack/" />
-    <meta property="og:image" content="https://minimalifehack.github.io/minimalifehack/assets/minimalism-quiet-living.jpg" />
-    <meta property="og:image:alt" content="自然光が差し込む、椅子と小さなテーブルのある空間" />
+    <meta property="og:image" content="https://minimalifehack.github.io/minimalifehack/assets/minimal-lifehack-logo.jpeg" />
+    <meta property="og:image:alt" content="minimalifehack ロゴ" />
     <meta property="og:locale" content="ja_JP" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <link rel="stylesheet" href="./styles.css?v=20261002-editorial" />
-    <script src="./analytics.js?v=20261001-analytics" defer></script>
-    <script src="./app.js?v=20261002-editorial" defer></script>
+    <meta name="twitter:card" content="summary" />
+    <link rel="stylesheet" href="./styles.css?v=20261007-qa" />
+    <script src="./analytics.js?v=20261005-landing" defer></script>
+    <script src="./app.js?v=20261005-landing" defer></script>
   </head>
   <body class="home-page">
     <a class="skip-link" href="#main">本文へ移動</a>
@@ -34,197 +33,72 @@
       </a>
       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu" aria-label="メニューを開く" hidden><span></span><span></span></button>
       <nav class="site-menu" id="site-menu" aria-label="メインナビゲーション">
-        <a href="./index.html#blog"><span>01</span>BLOG <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg></a>
-        <a href="./about.html"><span>02</span>ABOUT <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg></a>
-        <a href="./index.html#follow"><span>03</span>FOLLOW <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg></a>
+        <a href="./index.html#overview"><span>01</span>OVERVIEW <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg></a>
+        <a href="./index.html#status"><span>02</span>STATUS <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg></a>
+        <a href="./index.html#updates"><span>03</span>UPDATES <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg></a>
         <a href="./contact.html"><span>04</span>CONTACT <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg></a>
       </nav>
     </header>
 
-    <main id="main">
-      <section class="hero" id="top" aria-labelledby="hero-title">
-        <div class="hero-copy">
-          <h1 id="hero-title">好きなことと、<br />向き合う時間を。</h1>
-          <p>
-            <span>ミニマリズムで、大切なことを選ぶ。</span>
-            <span>好きなことに、時間と気持ちを注ぐ。</span>
-            <span>そのためのヒントを、5つのテーマから。</span>
-          </p>
-          <a class="primary-action" href="./articles/one-small-space.html">
-            <span>はじめの記事を読む</span>
-            <svg viewBox="0 0 24 24" aria-hidden="true">
-              <path d="M5 12h13M13 6l6 6-6 6" />
-            </svg>
-          </a>
-        </div>
-        <figure class="hero-photo">
-          <img src="./assets/minimalism-quiet-living.jpg?v=20261003-furniture"
-            alt="自然光が差し込む静かな空間に、木の椅子と本、白いカップを置いた小さなテーブル"
-            width="1122" height="1402" fetchpriority="high" />
-        </figure>
-      </section>
-
-      <section class="blog-section" id="blog" aria-labelledby="blog-title">
-        <div class="section-title-row">
-          <h2 id="blog-title">BLOG</h2>
-          <p>大切なことを選ぶ、5つのヒント。</p>
-        </div>
-        <nav class="blog-category-nav" aria-label="ブログカテゴリー">
-          <a href="#blog-living"><span aria-hidden="true">01</span>暮らしを整える</a>
-          <a href="#blog-mindset"><span aria-hidden="true">02</span>ミニマル思考</a>
-          <a href="#blog-life-cost"><span aria-hidden="true">03</span>ミニマムライフコスト</a>
-          <a href="#blog-tools"><span aria-hidden="true">04</span>AI・便利ツール</a>
-          <a href="#blog-goods"><span aria-hidden="true">05</span>ミニマルなモノ</a>
-        </nav>
-        <div class="blog-categories">
-          <section class="blog-category" id="blog-living" aria-labelledby="blog-living-title">
-            <div class="blog-category-copy">
-              <p class="blog-category-number" aria-hidden="true">01</p>
-              <h3 id="blog-living-title">暮らしを整える</h3>
-              <p>片づけ、家事、小さな習慣。日々の暮らしを無理なく整える。</p>
-            </div>
-            <div class="blog-articles" aria-label="暮らしを整えるの記事">
-              <article class="article-card">
-                <div class="article-image"><img src="./assets/minimalism-quiet-living.jpg?v=20261003-furniture" alt="自然光が差し込む、椅子と小さなテーブルのある空間" loading="lazy" width="1122" height="1402" /></div>
-
-                <h4><a href="./articles/one-small-space.html">片づけは、ひとつの小さな場所から。</a></h4>
-                <p>部屋全体を変えようとせず、机の一角から。片づけと小さな習慣をつなぐ、最初の一歩。</p>
-                <span class="article-card-hint" aria-hidden="true">記事を読む <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg></span>
-              </article>
-            </div>
-          </section>
-          <section class="blog-category" id="blog-mindset" aria-labelledby="blog-mindset-title">
-            <div class="blog-category-copy">
-              <p class="blog-category-number" aria-hidden="true">02</p>
-              <h3 id="blog-mindset-title">ミニマル思考</h3>
-              <p>書籍や日々の気づきから、ミニマルな考え方を深める。</p>
-            </div>
-            <div class="blog-articles" aria-label="ミニマル思考の記事">
-              <article class="article-card">
-                <div class="article-image"><img src="./assets/editorial-mindset.jpg" alt="机の上に置かれた本" loading="lazy" width="1536" height="1024" /></div>
-
-                <h4><a href="./articles/reading-your-own-standard.html">読書の気づきを、自分の「選ぶ基準」にする。</a></h4>
-                <p>本に書かれた正解をそのまま借りず、自分の暮らしに置き換える。気づきを残す3つの問い。</p>
-                <span class="article-card-hint" aria-hidden="true">記事を読む <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg></span>
-              </article>
-            </div>
-          </section>
-          <section class="blog-category" id="blog-life-cost" aria-labelledby="blog-life-cost-title">
-            <div class="blog-category-copy">
-              <p class="blog-category-number" aria-hidden="true">03</p>
-              <h3 id="blog-life-cost-title">ミニマムライフコスト</h3>
-              <p>固定費、日々の出費。自分に必要な暮らしのコストを考える。</p>
-            </div>
-            <div class="blog-articles" aria-label="ミニマムライフコストの記事">
-              <article class="article-card">
-                <div class="article-image"><img src="./assets/editorial-cost.jpg" alt="支出を整理するノートと電卓" loading="lazy" width="1536" height="1024" /></div>
-
-                <h4><a href="./articles/know-your-living-cost.html">生活費を減らす前に、必要な支出を知る。</a></h4>
-                <p>安さだけを目標にせず、守りたい支出を見つける。ひと月の出費を見渡すための整理方法。</p>
-                <span class="article-card-hint" aria-hidden="true">記事を読む <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg></span>
-              </article>
-            </div>
-          </section>
-          <section class="blog-category" id="blog-tools" aria-labelledby="blog-tools-title">
-            <div class="blog-category-copy">
-              <p class="blog-category-number" aria-hidden="true">04</p>
-              <h3 id="blog-tools-title">AI・便利ツール</h3>
-              <p>AI・Webアプリの活用から、スマホやファイルのデジタル整理まで。</p>
-            </div>
-            <div class="blog-articles" aria-label="AI・便利ツールの記事">
-              <article class="article-card">
-                <div class="article-image"><img src="./assets/editorial-digital.jpg" alt="必要な道具を揃えたシンプルな作業机" loading="lazy" width="1536" height="1024" /></div>
-
-                <h4><a href="./articles/digital-one-place.html">デジタル整理は、「置き場所」をひとつ決める。</a></h4>
-                <p>新しいアプリを増やす前に、メモやファイルの入口を整える。AIに任せる範囲も小さく決める。</p>
-                <span class="article-card-hint" aria-hidden="true">記事を読む <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg></span>
-              </article>
-            </div>
-          </section>
-          <section class="blog-category" id="blog-goods" aria-labelledby="blog-goods-title">
-            <div class="blog-category-copy">
-              <p class="blog-category-number" aria-hidden="true">05</p>
-              <h3 id="blog-goods-title">ミニマルなモノ</h3>
-              <p>好きなことを支えてくれる、自分に合う道具や日用品を紹介。</p>
-            </div>
-            <div class="blog-articles" aria-label="ミニマルなモノの記事">
-              <article class="article-card">
-                <div class="article-image"><img src="./assets/editorial-goods.jpg" alt="日々の時間を楽しむカップとケトル" loading="lazy" width="1536" height="1024" /></div>
-
-                <h4><a href="./articles/before-adding-one-thing.html">ひとつ増やす前に、使う場面を思い浮かべる。</a></h4>
-                <p>シンプルな見た目だけで選ばない。道具を迎える前に考えたい、使い方・置き場所・手入れ。</p>
-                <span class="article-card-hint" aria-hidden="true">記事を読む <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg></span>
-              </article>
-            </div>
-          </section>
-        </div>
-      </section>
-
-      <section class="apps-section" id="apps" aria-labelledby="apps-title">
-        <div class="section-title-row">
-          <h2 id="apps-title">APPS</h2>
-          <p>暮らしを助ける、小さな道具。</p>
-        </div>
-
-        <div class="app-list">
-          <article class="app-row">
-            <p class="app-number">APP 01</p>
-            <div class="app-details">
-              <h3>最初のアプリを準備中</h3>
-              <p>公開後、この場所からすぐに使えます。</p>
-            </div>
-            <p class="app-status">COMING SOON</p>
-          </article>
-
-        </div>
-      </section>
-
-      <section class="follow-section" id="follow" aria-labelledby="follow-title">
-        <div class="follow-heading">
-          <p class="eyebrow">STAY CONNECTED</p>
-          <h2 id="follow-title">好きなことに、<br />時間を使うヒントを。</h2>
-          <p>大切なことを選び、集中するための暮らしの工夫や考え方をお届けします。</p>
-        </div>
-        <div class="rss-follow">
-          <div><h3>新しい記事を、RSSで受け取る。</h3><p>お使いのRSSリーダーに、このサイトのフィードURLを登録してください。メールアドレスの登録は不要です。</p></div>
-          <div class="rss-controls">
-            <button class="copy-link" type="button" data-copy-url="https://minimalifehack.github.io/minimalifehack/feed.xml" hidden>RSSのURLをコピー <span aria-hidden="true">↗</span></button>
-            <p class="copy-status" role="status" aria-live="polite"></p>
+    <main id="main" tabindex="-1">
+      <section class="lp-hero" id="top" aria-labelledby="hero-title">
+        <div class="lp-hero-copy">
+          <p class="lp-kicker">MINIMALIFEHACK / FIRST WEB APP</p>
+          <h1 id="hero-title">毎日の手間を、<br />好きな時間に変える。</h1>
+          <p class="lp-lead">小さな困りごとを減らし、大切なことに向き合える時間をつくる。minimalifehackの最初のWebアプリを準備しています。</p>
+          <div class="lp-actions">
+            <a class="lp-primary" href="#status">公開状況を見る <span aria-hidden="true">↗</span></a>
+            <a class="lp-secondary" href="https://lin.ee/WarkBuk">LINEを見る <span aria-hidden="true">↗</span></a>
           </div>
+          <p class="lp-hero-status"><span aria-hidden="true"></span> FIRST APP / PREPARING</p>
         </div>
-          <ul class="social-links" aria-label="SNS">
-            <li>
-              <a class="social-link" href="https://www.instagram.com/minimalifehack/">
-                <span class="social-link-name">Instagram</span>
-                <span class="social-link-status" aria-hidden="true">↗</span>
-              </a>
-            </li>
-            <li>
-              <a class="social-link" href="https://www.youtube.com/@minimalifehack">
-                <span class="social-link-name">YouTube</span>
-                <span class="social-link-status" aria-hidden="true">↗</span>
-              </a>
-            </li>
-            <li>
-              <span class="social-link social-link--pending" aria-disabled="true">
-                <span class="social-link-name">note</span>
-                <span class="social-link-status">準備中</span>
-              </span>
-            </li>
-            <li>
-              <a class="social-link" href="https://lin.ee/WarkBuk">
-                <span class="social-link-name">LINE</span>
-                <span class="social-link-status" aria-hidden="true">↗</span>
-              </a>
-            </li>
-          </ul>
+        <div class="lp-showcase">
+          <div class="showcase-card">
+            <div class="showcase-card-head"><span>minimalifehack</span><span>01 / CONCEPT</span></div>
+            <div class="showcase-message"><span>LESS FRICTION</span><strong>ひと手間を減らす。<br />時間に余白ができる。</strong></div>
+            <div class="showcase-card-foot"><span>SMALL TOOLS, MORE TIME</span><span aria-hidden="true">↗</span></div>
+          </div>
+          <p>コンセプトイメージです。実際のアプリ画面ではありません。</p>
+        </div>
+      </section>
+
+      <section class="lp-overview" id="overview" aria-labelledby="overview-title">
+        <div class="lp-section-label"><span>01 / OVERVIEW</span><h2 id="overview-title">目指す体験</h2></div>
+        <div class="lp-overview-body">
+          <p class="lp-statement">「やらなければ」を少し減らして、<br />「やりたい」に時間を使えるように。</p>
+          <p>最初のアプリでは、日常の小さな手間に目を向けます。必要なことを選び、迷わず使える道具を目指します。具体的な機能は、内容が決まり次第お知らせします。</p>
+        </div>
+      </section>
+
+      <section class="lp-principles" aria-label="アプリで大切にしたいこと">
+        <div><span>01</span><h3>小さな手間を減らす</h3><p>毎日の中で繰り返す負担を見つめる。</p></div>
+        <div><span>02</span><h3>シンプルに使える</h3><p>必要なことに集中できる形を考える。</p></div>
+        <div><span>03</span><h3>自分の時間を増やす</h3><p>好きなことに向き合う余白をつくる。</p></div>
+      </section>
+
+      <section class="lp-status-section" id="status" aria-labelledby="status-title">
+        <div class="lp-status-heading"><span>02 / LAUNCH STATUS</span><h2 id="status-title"><span class="heading-phrase">ただいま、</span><span class="heading-phrase">準備中です。</span></h2></div>
+        <div class="lp-status-details">
+          <p>アプリ名・機能・公開日はまだ決まっていません。決まり次第、このページでお知らせします。</p>
+          <span>FIRST WEB APP<br />COMING SOON</span>
+        </div>
+      </section>
+
+      <section class="lp-updates" id="updates" aria-labelledby="updates-title">
+        <div class="lp-updates-heading"><span>03 / UPDATES</span><h2 id="updates-title"><span class="heading-phrase">これからの情報は、</span><span class="heading-phrase">こちらから。</span></h2><p>アプリの公開情報は、このページとminimalifehackのSNSでご案内します。</p></div>
+        <ul class="social-links" aria-label="SNS">
+          <li><a class="social-link" href="https://www.instagram.com/minimalifehack/"><span class="social-link-name">Instagram</span><span class="social-link-status" aria-hidden="true">↗</span></a></li>
+          <li><a class="social-link" href="https://www.youtube.com/@minimalifehack"><span class="social-link-name">YouTube</span><span class="social-link-status" aria-hidden="true">↗</span></a></li>
+          <li><span class="social-link social-link--pending" aria-disabled="true"><span class="social-link-name">note</span><span class="social-link-status">準備中</span></span></li>
+          <li><a class="social-link" href="https://lin.ee/WarkBuk"><span class="social-link-name">LINE</span><span class="social-link-status" aria-hidden="true">↗</span></a></li>
+        </ul>
       </section>
     </main>
 
     <footer class="site-footer">
       <nav class="site-nav" aria-label="フッターナビゲーション">
-        <a href="#blog">BLOG</a>
-        <a href="#follow">FOLLOW</a>
+        <a href="#overview">OVERVIEW</a>
+        <a href="#updates">UPDATES</a>
       </nav>
       <div class="footer-meta">
         <a href="./about.html">運営概要</a>

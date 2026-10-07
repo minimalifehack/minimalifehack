@@ -1,30 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://minimalifehack.github.io/minimalifehack/</loc>
-  </url>
-  <url>
-    <loc>https://minimalifehack.github.io/minimalifehack/articles/one-small-space.html</loc>
-  </url>
-  <url>
-    <loc>https://minimalifehack.github.io/minimalifehack/articles/reading-your-own-standard.html</loc>
-  </url>
-  <url>
-    <loc>https://minimalifehack.github.io/minimalifehack/articles/know-your-living-cost.html</loc>
-  </url>
-  <url>
-    <loc>https://minimalifehack.github.io/minimalifehack/articles/digital-one-place.html</loc>
-  </url>
-  <url>
-    <loc>https://minimalifehack.github.io/minimalifehack/articles/before-adding-one-thing.html</loc>
-  </url>
-  <url>
-    <loc>https://minimalifehack.github.io/minimalifehack/privacy.html</loc>
-  </url>
-  <url>
-    <loc>https://minimalifehack.github.io/minimalifehack/about.html</loc>
-  </url>
-  <url>
-    <loc>https://minimalifehack.github.io/minimalifehack/contact.html</loc>
-  </url>
+  <url><loc>https://minimalifehack.github.io/minimalifehack/</loc></url>
+  <url><loc>https://minimalifehack.github.io/minimalifehack/about.html</loc></url>
+  <url><loc>https://minimalifehack.github.io/minimalifehack/contact.html</loc></url>
+  <url><loc>https://minimalifehack.github.io/minimalifehack/privacy.html</loc></url>
 </urlset>
